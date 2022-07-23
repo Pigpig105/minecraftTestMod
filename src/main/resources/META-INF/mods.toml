@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[41,)"
+license="MIT"
+[[mods]]
+modId="pigpig105"
+version="${file.jarVersion}"
+displayName="pigpig105"
+logoFile="examplemod.png"
+credits="Special thanks to Lawnmorr and Hank V c"
+authors="pigpig105"
+description='''
+The big test
+'''
+[[dependencies.pigpig105]]
+    modId="forge" #mandatory
+    mandatory=true
+    versionRange="[41,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.pigpig105]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19,1.20)"
+    ordering="NONE"
+    side="BOTH"
